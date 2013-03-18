@@ -3,6 +3,8 @@
 
 Simple http redirect method
 
+[![Build Status](https://travis-ci.org/juliangruber/predirect.png)](https://travis-ci.org/juliangruber/predirect)
+
 ## Usage
 
 ```js
