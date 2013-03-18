@@ -1,7 +1,7 @@
 {
   "name" : "predirect",
   "description" : "Simple http redirect method",
-  "version" : "0.0.0",
+  "version" : "0.0.1",
   "repository" : {
     "type" : "git",
     "url" : "git://github.com/juliangruber/predirect.git"
@@ -13,7 +13,7 @@
   },
   "dependencies" : {},
   "devDependencies" : {
-    "tap" : "*"
+    "webtap" : "~0.0.0"
   },
   "keywords": ["http,","redirect,","response,","code"],
   "author": {
