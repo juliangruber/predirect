@@ -1,7 +1,7 @@
 {
   "name" : "predirect",
   "description" : "Simple http redirect method",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "repository" : {
     "type" : "git",
     "url" : "git://github.com/juliangruber/predirect.git"
@@ -21,5 +21,8 @@
     "email": "mail@juliangruber.com",
     "url": "http://juliangruber.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
 }
