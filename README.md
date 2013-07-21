@@ -12,7 +12,26 @@ var redirect = require('predirect');
 var http = require('http');
 
 http.createServer(function (req, res) {
+
   redirect(req, res, 'https://github.com');
+
+}).listen(3333);
+```
+
+or with currying:
+
+```js
+var predirect = require('predirect');
+var http = require('http');
+
+http.createServer(function (req, res) {
+
+  var redirect = predirect(req, res);
+
+  // ...
+
+  redirect('https://github.com');
+
 }).listen(3333);
 ```
 
@@ -24,9 +43,12 @@ Redirect to `url` and respond with `text` if the request method isn't `HEAD`.
 
 `text` gets parsed by `util.format` and defaults to `-> %s`.
 
+If you only pass `req` and `res`, this will return a function you can then
+pass `url` and `text` to.
+
 ## Installation
 
-With [npm](http://npmjs.org) do
+With [npm](http://npmjs.org) do:
 
 ```bash
 $ npm install predirect
