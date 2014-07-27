@@ -3,7 +3,9 @@
 
 Simple http redirect method
 
-[![Build Status](https://travis-ci.org/juliangruber/predirect.png)](https://travis-ci.org/juliangruber/predirect)
+[![Build Status](https://travis-ci.org/juliangruber/predirect.svg)](https://travis-ci.org/juliangruber/predirect)
+[![downloads](https://img.shields.io/npm/dm/predirect.svg)](https://www.npmjs.org/package/predirect)
+
 
 ## Usage
 
