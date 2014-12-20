@@ -9,7 +9,7 @@
   "homepage": "https://github.com/juliangruber/predirect",
   "main" : "index.js",
   "scripts" : {
-    "test" : "tap test/*.js"
+    "test" : "make test"
   },
   "dependencies" : {},
   "devDependencies" : {
