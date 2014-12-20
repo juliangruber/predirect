@@ -48,6 +48,10 @@ Redirect to `url` and respond with `text` if the request method isn't `HEAD`.
 If you only pass `req` and `res`, this will return a function you can then
 pass `url` and `text` to.
 
+### redirect(ctx, url[, text])
+
+Pass a context with `.req` and `.res`, instead of two separate arguments.
+
 ## Installation
 
 With [npm](http://npmjs.org) do:
