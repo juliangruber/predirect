@@ -9,7 +9,7 @@ function predirect (req, res, location, text) {
     };
   }
 
-  text = text || '-> %s'
+  text = text || '-> %s';
 
   res.statusCode = 302;
   res.setHeader('location', location);
