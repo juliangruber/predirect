@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "webtap": "~0.0.0"
+    "webtap": "~0.2.0"
   },
   "keywords": [
     "http,",
